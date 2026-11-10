@@ -1,0 +1,19 @@
+/* Primary button, using the primary color of the color scheme */
+.btn-blue {
+  display: inline-block;
+  background-color: #167FFB;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 4px;
+  /* For real <button> elements: no default border, hand cursor */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: #0E6AD9;
+}
